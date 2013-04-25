@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0;}
+html{width:100%;height:100%;}
+body{font-family:sans-serif;width:100%;  height:100%;font-size:100%;}
+.ad {height:100%; width:100%; position:relative; margin:0 auto; background: url(../img/bg.jpg) no-repeat scroll;background-position:center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;}
+.text{text-align:center; font-weight:bold; font-size:200%; text-shadow: 3px 3px 2px rgba(0,0,0,0.8);color:#fff;position: absolute;top: 50%;margin-top: -50px;left: 50%;margin-left: -120px;}
+@media only screen and (max-width:300px){
+.text{font-size: 120%;
+margin-left: -70px;
+margin-top: -25px;}
+}
+@media only screen and (max-width:120px){
+.text{font-size: 80%;
+margin-left: -50px;
+margin-top: -25px;}
+}
+@media only screen and (height: 250px) and (min-width:250px){
+.text{font-size: 150%;
+margin-left: -90px;
+margin-top: -35px;}
+}
+@media only screen and (height: 125px){
+.text{margin-top:-35px;}
+}
+@media only screen and (height: 125px) and (min-width:120px){
+.text{margin-top: -25px;
+font-size: 80%;
+margin-left: -50px;}
+}
+@media only screen and (height: 125px) and (min-width:250px){
+.text{font-size:200%;margin-top:-50px; margin-left:-120px;}
+}
+@media only screen and (height: 90px){
+.text{margin-top:-40px;}
+}
+@media only screen and (height: 90px) and (min-width:120px){
+.text{margin-top: -20px;
+font-size: 80%;
+margin-left: -50px;}
+}
+@media only screen and (height: 90px) and (min-width:300px){
+.text{margin-top: -30px;
+font-size: 150%;
+margin-left: -90px;}
+}
+@media only screen and (height: 60px) {
+.text{font-size: 70%;
+margin-top: -10px;
+margin-left: -50px;}
+}
+@media only screen and (height: 60px) and (min-width:234px) {
+.text p{display:inline;margin-right:0.2em;}
+.text{font-size: 100%;
+margin-top: -12px;
+margin-left: -75px;}
+}
