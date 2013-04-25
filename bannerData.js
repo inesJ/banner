@@ -1,1 +1,0 @@
-/*get banner data from google docs*/
