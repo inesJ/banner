@@ -3,7 +3,7 @@
 *{margin:0; padding:0;}
 html{width:100%;height:100%;}
 body{font-family:sans-serif;width:100%;  height:100%;font-size:100%;}
-.ad {height:100%; width:100%; position:relative; margin:0 auto; background: url(../img/bg.jpg) no-repeat scroll;background-position:center;
+.ad {height:100%; width:100%; position:relative; margin:0 auto; background: url(http://www.simply-stylish.de/tests/test4/img/bg.jpg) no-repeat scroll;background-position:center;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
